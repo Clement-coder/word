@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mainer a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: white;
+    height: 100px;
+}
+
+
+.mainer a:hover{
+    color: purple;
+    border-bottom: 3px solid blue;
+    border-top: 3px solid orangered;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border-left: 2px dotted orchid;
+    border-right: 2px dotted orange;
+
+}
+
+.search a{
+    position: relative;
+    left: 70%;
+    bottom: 60px;
+    color: black;
+}
+
+.search a svg:hover{
+    border: 1px solid orangered;
+    border-radius: 50px;
+    fill: gray;
+}
+
+.links a{
+    border: 1px solid orangered;
+    color: orangered;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: none;
+}
+
+.links a:hover{
+    color: whitesmoke;
+    background-color: orangered;
+
+}
+
+.links button{
+    border: 1px solid orangered;
+    color: whitesmoke;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    text-align: center;
+    background-color: orangered;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 100%;
+    left: 73%;
+}
+
+
+
+.links button{
+    position: relative;
+    left: 10px;
+}
+
+.links button:hover{
+    background-color: whitesmoke;
+    color: orangered;
+}
+
+
+.website_img img{
+    height: 300px;
+    width: 100%;
+}
+
+.website{
+    color: white;
+    position: absolute;
+    bottom: 270px;
+    left: 250px;
+    padding: 20px;
+}
+
+.website h1{
+    font-size: 2.5rem;
+}
+
+.website a{
+    color: white;
+}
+
+.content{
+    display: flex;
+}
+
+.content p{
+    font-size: 1.2rem;
+}
+
+.content a{
+    text-decoration: none;
+    color: blue;
+}
+
+.content img{
+    width: 620px;
+    height: 400px;
+}
+
+.content a:hover{
+    color: rgb(42, 189, 189);
+    border-bottom: 1px dashed gray;
+}
+
+.content img:hover{
+    position: relative;
+    top: 4px;
+}
+
+.relative{
+    margin-left: 30%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 200px;
+    margin-top: 700px;
+    width: 200px;
+    text-align: center;
+    position: sticky;
+    top: 100px;
+}
+
+.relative button{
+    border: 1px solid orangered;
+    color: whitesmoke;
+    background-color: orangered;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.relative button:hover{
+    color: orangered;
+    background-color: whitesmoke;
+}
+
+.contents{
+    position: absolute;
+    left: 250px;
+}
+
+.contents p{
+    font-size: 1.2rem;
+}
+
+.contents a{
+    text-decoration: none;
+    color: blue;
+}
+
+.contents img{
+    width: 620px;
+    height: 400px;
+}
+
+.contents a:hover{
+    color: rgb(42, 189, 189);
+    border-bottom: 1px dashed gray;
+}
+
+.contents img:hover{
+    position: relative;
+    top: 4px;
+}
+
+.contents{
+    margin-top: 1000px;
+}
